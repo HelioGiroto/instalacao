@@ -1,2 +1,2 @@
-# instalacao
+# Instalação
 Instalação de máquina com Debian + Openbox, Wordpress, etc...
