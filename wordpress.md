@@ -104,6 +104,18 @@ Para atualizar este plugin: Desinstalar (PRO Elements), baixar nova versão em E
 [Voltar ao índice](#indice)
 
 
+## Configurações necessárias do Elementor
+
+ - wp-admin/admin.php?page=elementor#tab-experiments
+ - wp-admin
+ - Elementor
+ - Configurações
+ - Recursos
+ - Contêiner Flexbox = ativo
+ - Menu = ativo
+ - Salvar alterações
+
+
 
 ## Páginas <a id='paginas'></a>
 
@@ -127,7 +139,7 @@ Para atualizar este plugin: Desinstalar (PRO Elements), baixar nova versão em E
  - Em 'Página inicial = inicio'
  - Guardar alterações
 
-<a id='modeloPagina'></a><sup>(1)</sup> * Caso não apareça esta opção, depois de criada a página, ir à Páginas > Todas as páginas > Edição rápida na página Inicio.
+<a id='modeloPagina'></a><sup>(1)</sup> * Caso não apareça esta opção, depois de criada a página, ir à Páginas > Todas as páginas > Edição rápida na página Inicio > Modelo = Tela do Elementor
 
 [Voltar ao índice](#indice)
 
@@ -175,8 +187,8 @@ Estrutura das ligações permanentes = Nome do artigo'
 
 ## Escolher Fontes <a id='fontes'></a>
 
-Google fonts: 
-https://fonts.google.com/specimen/Jost?query=jost
+*Google fonts:*
+	https://fonts.google.com/specimen/Jost?query=jost
 
 Para editar: 
  - Edita uma página com Elementor
@@ -188,18 +200,28 @@ Para editar:
 
 /wp-admin/post.php?post=11&action=elementor&active-document=5
 
-...
+
+*Subir arquivo ttf de fontes próprias:*
+ - Instalar e ativar o plugin 
+ 	Custom Fonts de Brainstorm Force
+ - Ir a Aparência > Custom Fonts (.../wp-admin/themes.php?page=bsf-custom-fonts)
+
+
 
 [Voltar ao índice](#indice)
 
 
 ## Escolher Cores <a id='cores'></a>
 
+Ver ideias em: 
+	https://coolors.co/palettes/trending
+	https://color.adobe.com/pt/trends
+
 Para editar: 
  - Edita uma página com Elementor
  - Menú hamburguer (Sup. esq.)
- - Site Settings
- - Global colors
+ - Site Settings 	// Configurações do site
+ - Global colors 	// Cors globais
 
 [Voltar ao índice](#indice)
 
@@ -256,3 +278,30 @@ Ficará em:
 [Voltar ao índice](#indice)
 
 
+
+# ELEMENTOR
+
+## Criar div 100% de altura copm imagem de fundo
+ - Editar página com Elementor
+ - 6 pontinhos
+ - Layout
+ - Altura mínima = 100 vh
+ - Estilo
+ - Tipo de plano de fundo = pincel
+ - Escolhe a imagem
+	 - Posição = personalizado ? ou outras
+ - Repetir - Não repetir
+
+
+## Tirar a barra de rolagem (eixo X, horizontal):
+ - Layout
+ - conteiner
+ - Largura do conteúdo = em caixa
+ 
+ 
+ 
+ https://elementor.com/help/how-to-change-background-image/
+ 
+ 
+ 
+ 

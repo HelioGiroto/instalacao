@@ -84,7 +84,7 @@ FONTE: https://raw.githubusercontent.com/HelioGiroto/Brincando-com-o-Terminal/ma
 sudo apt install xorg xterm openbox obconf 
 startx
 
-sudo apt install openbox xinit aptitude slim lxterminal obmenu menu obconf nitrogen compton tint2 thunar arandr rofi git
+sudo apt install openbox xinit aptitude slim lxterminal menu obconf nitrogen compton tint2 thunar arandr rofi git
 
 - No Terminal clonar o meu 
 	git clone https://github.com/HelioGiroto/Brincando-com-o-Terminal.git
@@ -92,7 +92,7 @@ sudo apt install openbox xinit aptitude slim lxterminal obmenu menu obconf nitro
 - Copiar as pastas de .config do repositório para .config da máquina
 
 - Ver: 
-vim tmux ranger gedit chromium simplescreenrecorder audacity gcc cheese conky bc awk sed grep lynx curl wget html-xml-utils xclip googler ffmpeg imagemagick speedtest-cli youtube-dl nmap numix-icon-theme-circle espeak mbrola gnumeric galculator abiword shotwell htop mc mupdf mpack ssmtp mplayer alpine wkhtmltopdf gpick gnome-tweaks gnome-sushi gnome-multi-writer wdiff colordiff tint2 feh ranger fswebcam dialog jq xtrlock mate-utils pavucontrol calendar whois bsdmainutils onboard pdfgrep numlockx lxappearance lxappearance-obconf vlc python3-pip mirage plank xserver-xorg-input-synaptics nodejs npm
+vim tmux ranger gedit chromium simplescreenrecorder audacity gcc cheese conky bc gawk sed grep lynx curl wget html-xml-utils xclip googler ffmpeg imagemagick speedtest-cli youtube-dl nmap numix-icon-theme-circle espeak mbrola gnumeric galculator abiword shotwell htop mc mupdf mpack ssmtp mplayer alpine wkhtmltopdf gpick gnome-tweaks gnome-sushi gnome-multi-writer wdiff colordiff tint2 feh ranger fswebcam dialog jq xtrlock mate-utils pavucontrol calendar whois bsdmainutils onboard pdfgrep numlockx lxappearance lxappearance-obconf vlc python3-pip mirage plank xserver-xorg-input-synaptics nodejs npm
 
 
 Para informações dos pacotes acima, dar comando:
